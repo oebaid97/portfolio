@@ -16,8 +16,8 @@ export default function Header() {
     }, [])
 
     return (
-        <div className="navbar max-w-6xl z-10 px-5 mt-5">
-            <div className="navbar-start">
+        <div className="navbar max-w-6xl z-10 px-5 md:mt-5 flex-col space-y-10 md:space-x-5 md:space-y-0 md:flex-row">
+            <div className="lg:navbar-start w-full justify-center">
                 {pathname === '/' ?
                     <Link href="/" className="btn normal-case text-xl bg-base-200 border-0 rounded-lg">
                         Omar Ebaid
@@ -32,14 +32,14 @@ export default function Header() {
                     </Link>
                 }
             </div>
-            <div className="navbar-center rounded-lg text-base-content bg-base-200">
+            <div className="navbar-center rounded-lg text-base-content bg-base-200 shadow-lg shadow-secondary">
                 <ul className="flex space-x-5 p-2">
                     <li className='btn btn-sm font-normal capitalize'><Link href="/about">About</Link></li>
                     <li className='btn btn-sm font-normal capitalize'><Link href="/projects">Projects</Link></li>
                     <li className='btn btn-sm font-normal capitalize'><Link href="/services">Services</Link></li>
                 </ul>
             </div>
-            <div className="navbar-end space-x-5">
+            <div className="lg:navbar-end space-x-5 justify-between w-full">
                 <button className="btn btn-primary rounded-md"><Link href="/#contact">Contact Me</Link></button>
                 <button className="btn rounded-lg bg-base-200" data-toggle-theme="dark,light" onClick={() => setDarkMode(!darkMode)}>
                     <div className="indicator">

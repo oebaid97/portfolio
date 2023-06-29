@@ -2,7 +2,7 @@ import Image from 'next/image'
 
 export default function Hero() {
     return (
-        <div className="hero bg-base-100 justify-start my-20 px-20">
+        <div className="hero bg-base-100 justify-start my-10 md:px-20 md:my-20">
             <div className="hero-content flex-col">
                 <div className='w-full'>
                     <Image src="/portrait.jpg" alt="portrait of Omar Ebaid" width={150} height={150} className='rounded-full object-cover h-40 object-bottom mb-5' />

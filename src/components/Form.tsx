@@ -48,7 +48,7 @@ export default function Form() {
     return (
         <>
             {mounted && (
-                <form className="w-2/3 mb-12 p-5" id="get-started" onSubmit={handleSubmit}>
+                <form className="lg:w-2/3 w-full mb-12 p-5" id="get-started" onSubmit={handleSubmit}>
                     {!sent && (
                         <div className="form-control space-y-5">
                             <h2 className="text-3xl font-bold text-accent">Contact Me</h2>
@@ -59,7 +59,7 @@ export default function Form() {
                             <button className="btn btn-accent max-w-sm text-base-100">{sending ? 'Sending...' : 'Submit'}</button>
                         </div>
                     )}
-                    {sent && <h2 className="text-xl text-center text-base-100">Thank you for getting in touch! I will get back to you as soon as possible.</h2>}
+                    {sent && <h2 className="text-xl text-center text-white">Thank you for getting in touch! I will get back to you as soon as possible.</h2>}
                 </form>
             )}
         </>

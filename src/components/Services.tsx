@@ -1,12 +1,12 @@
 export default function Services() {
     return (
-        <div className="bg-base-100 my-20 px-20 w-full flex flex-col justify-between">
-            <div className="flex flex-col space-y-3 mb-10">
+        <div className="bg-base-100 my-20 lg:px-20 w-full flex flex-col justify-between">
+            <div className="flex flex-col space-y-3 mb-10 lg:p-0 p-5">
                 <h1 className="text-5xl font-bold leading-normal text-base-content max-w-2xl">Here are some of the things I can do for you!</h1>
                 <p className="text-lg text-base-content max-w-4xl">I love taking on new challenges, so if you have an idea for something different let me know! I&apos;m always looking for new ways to learn and grow.</p>
             </div>
-            <div className="flex space-x-16 my-5">
-                <div className="card w-1/3 shadow-2xl shadow-secondary">
+            <div className="flex lg:flex-row flex-col lg:space-x-16 space-y-20 my-5 lg:p-0 p-5">
+                <div className="card w-full lg:w-1/3 shadow-2xl shadow-secondary">
                     <div className="card-body">
                         <h2 className="card-title text-secondary">
                             Web Development
@@ -16,7 +16,7 @@ export default function Services() {
                         </p>
                     </div>
                 </div>
-                <div className="card w-1/3 shadow-2xl shadow-secondary">
+                <div className="card w-full lg:w-1/3 shadow-2xl shadow-secondary">
                     <div className="card-body">
                         <h2 className="card-title text-secondary">
                             Consulting
@@ -26,7 +26,7 @@ export default function Services() {
                         </p>
                     </div>
                 </div>
-                <div className="card w-1/3 shadow-2xl shadow-secondary">
+                <div className="card w-full lg:w-1/3 shadow-2xl shadow-secondary">
                     <div className="card-body">
                         <h2 className="card-title text-secondary">
                             Non-Profits

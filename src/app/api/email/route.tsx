@@ -8,8 +8,6 @@ type ResponseData = {
   message?: string;
 };
 
-// console.log(process.env.SENDGRID_API_KEY || process.env.NEXT_PUBLIC_SENDGRID_API_KEY);
-
 export async function POST(request: Request) {
   let response: ResponseData = {};
   const body = await request.json();

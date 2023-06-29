@@ -13,7 +13,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Images />
-      <div className='flex flex-row w-full' id='contact'>
+      <div className='flex lg:flex-row lg:space-x-5 lg:pr-5 w-full flex-col-reverse' id='contact'>
         <Form />
         <Work />
       </div>
