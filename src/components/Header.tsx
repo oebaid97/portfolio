@@ -44,9 +44,9 @@ export default function Header() {
                 <button className="btn rounded-lg bg-base-200" data-toggle-theme="dark,light" onClick={() => setDarkMode(!darkMode)}>
                     <div className="indicator">
                         {darkMode ?
-                            <MoonIcon className="w-5 h-5 text-base-content" />
-                            :
                             <SunIcon className="w-5 h-5 text-base-content" />
+                            :
+                            <MoonIcon className="w-5 h-5 text-base-content" />
                         }
                     </div>
                 </button>
