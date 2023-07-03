@@ -34,7 +34,7 @@ export default function Work() {
                 <div className="stat-desc">Assistant Manager</div>
                 <div className="stat-desc">Jan 1st - Feb 1st</div>
             </div>
-            <Link href="/public/resume.pdf" target="_blank" className="btn btn-accent max-w-sm flex text-base-100">Download Resume <ArrowDownOnSquareIcon className='fill-base-100 font-bold h-5 w-5 mb-2' /></Link>
+            <Link href="https://github.com/oebaid97/portfolio/raw/main/public/resume.pdf" target="_blank" className="btn btn-accent max-w-sm flex text-base-100">Download Resume <ArrowDownOnSquareIcon className='fill-base-100 font-bold h-5 w-5 mb-2' /></Link>
         </div>
     )
 }
